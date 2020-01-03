@@ -15,6 +15,7 @@ COPY dynatrace_logo.png /var/www/html/dynatrace_logo.png
 COPY black-friday-fashion-friends-1345082.jpg /var/www/html/black-friday-fashion-friends-1345082.jpg
 COPY 000-default.conf  /etc/apache2/sites-enabled/000-default.conf
 COPY ports.conf  /etc/apache2/ports.conf
+COPY apache2.conf /etc/apache2/apache2.conf
 ENV SERVICES_PORT=80
 
 EXPOSE 8080
