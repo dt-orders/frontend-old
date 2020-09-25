@@ -17,6 +17,7 @@ COPY 000-default.conf  /etc/apache2/sites-enabled/000-default.conf
 COPY ports.conf  /etc/apache2/ports.conf
 COPY apache2.conf /etc/apache2/apache2.conf
 ENV SERVICES_PORT=80
+ENV PROXY_PRESERVE_HOST=Off
 
 EXPOSE 8080
 CMD apache2ctl -D FOREGROUND
