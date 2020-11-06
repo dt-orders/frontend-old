@@ -1,3 +1,6 @@
+
+# :rotating_light: This project is still here for reference, but the concept is being now maintained in [frontend](https://github.com/dt-orders/frontend) repo :rotating_light:
+
 # Overview
 
 This repo has code for a static HTML site.
